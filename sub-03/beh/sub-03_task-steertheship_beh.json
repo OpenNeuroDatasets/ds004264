@@ -1,0 +1,94 @@
+{
+  "blockNumber": {
+    "Description": "Block number (integer)"
+  },
+  "conditionNumber": {
+    "Description": "Condition number (integer)",
+    "Levels": {
+      "x1": "No motor noise, no environment noise",
+      "x2": "No motor noise, environment noise",
+      "x3": "Motor noise, no environment noise",
+      "x4": "Motor noise, environment noise"
+    }
+  },
+  "meanActionRate": {
+    "Description": "Mean button press rate",
+    "Units": "key presses per frame"
+  },
+  "targetDeg": {
+    "Description": "Target location, ranges from -90 to +90 deg, with 0 deg at the top",
+    "Units": "degrees"
+  },
+  "thetas": {
+    "Description": "Angle relative to target",
+    "Units": "radians"
+  },
+  "thetaDots": {
+    "Description": "Angular velocity, refresh rate was 60 Hz",
+    "Units": "radians per every two frames"
+  },
+  "vs": {
+    "Description": "Horizontal cart velocity (underlying model, not shown)"
+  },
+  "participantActions": {
+    "Description": "Whether or not participant pressed a button on each frame (boolean)",
+    "Levels": {
+      "x0": "No button pressed this frame",
+      "x1": "Button pressed this frame"
+    }
+  },
+  "participantForceMags": {
+    "Description": "Magnitude of participant-applied force on each frame (or 0 if no button pressed)"
+  },
+  "computerActions": {
+    "Description": "Whether or not computer pressed a button on each frame (boolean)",
+    "Levels": {
+      "x0": "No action was taken this frame (participant or computer)",
+      "x1": "An action was taken this frame (participant or computer)"
+    }
+  },
+  "computerForceMags": {
+    "Description": "Magnitude of computer-applied force on each frame (or 0 if no button pressed)"
+  },
+  "actualActions": {
+    "Description": "Whether there was a resulting action on this frame (boolean)"
+  },
+  "actualForceMags": {
+    "Description": "Actual magnitude of applied force this frame"
+  },
+  "buttonPressTimes": {
+    "Description": "Time associated with each button press",
+    "Units": "seconds"
+  },
+  "frameCount": {
+    "Description": "Number of frames in this block (int)"
+  },
+  "steeringTime": {
+    "Description": "Total time for this block (seconds) - max block length is 60 seconds",
+    "Units": "seconds"
+  },
+  "crashed": {
+    "Description": "Did the ship crash? (boolean)",
+    "Levels": {
+      "x0": "Didn't crash",
+      "x1": "Crashed"
+    }
+  },
+  "pointsThisRound": {
+    "Description": "Number of points earned this round"
+  },
+  "scaledPointsThisRound": {
+    "Description": "Number of points earned this round, scaled to be out of 250"
+  },
+  "keyPresses": {
+    "Description": "Pressed keys",
+    "Levels": {
+      "f": "f-key",
+      "j": "j-key"
+    }
+  },
+  "keyPressTimes": {
+    "Description": "Time of each key press relative to start of block - may be more accurate than buttonPressTimes",
+    "Units": "seconds"
+  }
+}

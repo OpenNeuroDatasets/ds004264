@@ -1,0 +1,19 @@
+{
+  "TaskName": "steertheship",
+  "Manufacturer": "Brain Products",
+  "EEGReference": "Fz",
+  "SamplingFrequency": 1000,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "EEGChannelCount": 31,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "continuous",
+  "InstitutionName": "University of Oxford",
+  "InstitutionAddress": "Warneford Hospital, Oxford, OX3 7JX",
+  "InstitutionalDepartmentName": "Department of Psychiatry",
+  "ManufacturersModelName": "actiCHamp Plus"
+}

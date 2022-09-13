@@ -1,0 +1,11 @@
+{
+  "Name": "Steer the Ship",
+  "BIDSVersion": "1.2.1",
+  "License": "CC0",
+  "Authors": [
+    "Cameron D. Hassall",
+    "Yan Yan",
+    "Laurence T. Hunt"
+  ],
+  "DatasetType": "raw"
+}
