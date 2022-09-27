@@ -10,6 +10,8 @@ There were four noise conditions:
 
 Participant 12 should be excluded from event-locked analyses due to bad triggers (trigger cable was partially disconnected).  
 
+Also note that the RT for the first button press in each round is not recorded (but is recorded in the participantActions column).
+
 Trigger Modifiers (added to condition numbers)  
 Add 0: Condition cue  
 Add 10: Start of round  
